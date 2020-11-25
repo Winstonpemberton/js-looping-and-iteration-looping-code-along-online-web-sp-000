@@ -1,9 +1,10 @@
 const names = ['Lisa', 'Kaitlin', 'Jan'];
 const event = "birthday";
+let thankYous = []
 
 function writeCards(names, event) {
   for (let i= 0; i < names.length; i++) {
-  console.log(`Thank you, ${names[i]} , for the wonderful ${event} gift!`);
+  thankYous.push(`Thank you, ${names[i]} , for the wonderful ${event} gift!`);
   }
-  return names;
+  return thankYous;
 }
