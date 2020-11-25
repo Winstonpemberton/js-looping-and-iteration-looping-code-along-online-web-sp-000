@@ -9,10 +9,6 @@ function writeCards(names, event) {
   return thankYous;
 }
 
-let countup = 0;
-while (countup < 10) {
-  console.log(countup++);
-}
 function countDown(number) {
   while (number > 0 ) {
     console.log(number--);
